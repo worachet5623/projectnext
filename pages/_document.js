@@ -13,6 +13,16 @@ export default class Mydocument extends Document{
                 <body className="hold-transition sidebar-mini">
                     <Main />
                     <NextScript />
+
+                    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.1.0/js/adminlte.js" integrity="sha512-Qid1n+hjqGBUYI5u+5XkDMhmto5cSAw/0q4f9flUktT2zoPCwbjXrh5hKiRuTWsEWd1xcWe7rAAyr29/cR7LeA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.1.0/js/demo.js" integrity="sha512-MaVybC876FnZFdDbPpK/PR3Mbv2hrg02oBlWaKzm66Le5zW51JrQM5K4WBWRW3l3aXm/y2aelunq/JuXVVN6RQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.1.0/js/pages/dashboard3.js" integrity="sha512-ZGmRDhXC1RlFvkM030XW4/JAL/KrX5lYY70KgbMcjiAzS5V5sAReZ4aUfqhVVP74Aa+090XcMZhDahROHDREpA==" crossorigin="anonymous"></script>
+
                 </body>
             </Html>
         )
