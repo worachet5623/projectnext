@@ -8,7 +8,7 @@ export default function Service() {
   return (
   <div>
         <Head>
-      <title>saksit | service</title>
+      <title>earn | service</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
