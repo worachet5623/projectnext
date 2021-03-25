@@ -8,7 +8,7 @@ export default function Service() {
   return (
   <div>
         <Head>
-      <title>Worachet | service</title>
+      <title>pond | service</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />

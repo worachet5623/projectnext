@@ -8,7 +8,7 @@ export default function Home() {
   return (
   <div>
     <Head>
-      <title>Worachet | Home</title>
+      <title>pond | Home</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
