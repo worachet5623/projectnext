@@ -8,7 +8,7 @@ export default function Home() {
   return (
   <div>
     <Head>
-      <title>folk | Home</title>
+      <title>ice | Home</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
