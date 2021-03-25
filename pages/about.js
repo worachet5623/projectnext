@@ -8,7 +8,7 @@ export default function about() {
   return (
   <div>
         <Head>
-      <title>ice | about</title>
+      <title>saksit | about</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
