@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const AdminHeader = () => {
   return (
     <nav className="main-header navbar navbar-expand navbar-white navbar-light">
@@ -9,14 +11,20 @@ const AdminHeader = () => {
           </a>
         </li>
         <li className="nav-item d-none d-sm-inline-block">
-          <a href="index3.html" className="nav-link">
+          <Link href="/"><a className="nav-link">
             Home
-          </a>
+          </a></Link>
         </li>
         <li className="nav-item d-none d-sm-inline-block">
-          <a href="#" className="nav-link">
-            Contact
-          </a>
+        <Link href="service"><a className="nav-link">
+            Service
+          </a></Link>
+        </li>
+
+        <li className="nav-item d-none d-sm-inline-block">
+        <Link href="about"><a className="nav-link">
+            about
+          </a></Link>
         </li>
       </ul>
       {/* Right navbar links */}

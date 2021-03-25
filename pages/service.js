@@ -1,14 +1,14 @@
 import AdminHeader from '../component/layout/admin.header';
 import AdminSiderbar from '../component/layout/admin.menu';
 import AdminFooter from '../component/layout/admin.footer';
-import Head from 'next/head';
 import Link from "next/link";
+import Head from 'next/head';
 /* สวัสดี index */
-export default function Home() {
+export default function Service() {
   return (
   <div>
-    <Head>
-      <title>Worachet | Home</title>
+        <Head>
+      <title>Worachet | service</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
@@ -25,12 +25,12 @@ export default function Home() {
     <div className="container-fluid">
       <div className="row mb-2">
         <div className="col-sm-6">
-          <h1 className="m-0">Home</h1>
+          <h1 className="m-0">Service</h1>
         </div>{/* /.col */}
         <div className="col-sm-6">
           <ol className="breadcrumb float-sm-right">
             <li className="breadcrumb-item"><Link href="/"><a href="#">Home</a></Link></li>
-            <li className="breadcrumb-item active">Home</li>
+            <li className="breadcrumb-item active">Service</li>
           </ol>
         </div>{/* /.col */}
       </div>{/* /.row */}
@@ -38,7 +38,6 @@ export default function Home() {
   </div>
   {/* /.content-header */}
   </div>
-  
 
 
 <AdminFooter />
