@@ -8,7 +8,7 @@ export default function about() {
   return (
   <div>
         <Head>
-      <title>worachet | about</title>
+      <title>worachet | listmember</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
@@ -25,12 +25,12 @@ export default function about() {
     <div className="container-fluid">
       <div className="row mb-2">
         <div className="col-sm-6">
-          <h1 className="m-0">About</h1>
+          <h1 className="m-0">listmember</h1>
         </div>{/* /.col */}
         <div className="col-sm-6">
           <ol className="breadcrumb float-sm-right">
             <li className="breadcrumb-item"><Link href="/"><a href="#">Home</a></Link></li>
-            <li className="breadcrumb-item active">About</li>
+            <li className="breadcrumb-item active">listmember</li>
           </ol>
         </div>{/* /.col */}
       </div>{/* /.row */}

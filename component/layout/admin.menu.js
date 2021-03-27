@@ -11,7 +11,7 @@ const AdminSidebar = () => {
           className="brand-image img-circle elevation-3"
           style={{ opacity: ".8" }}
         />
-        <span className="brand-text font-weight-light">earn | Site</span>
+        <span className="brand-text font-weight-light">worachet | Site</span>
       </a>
       {/* Sidebar */}
       <div className="sidebar">
@@ -88,7 +88,50 @@ const AdminSidebar = () => {
                 </li>
               </ul>
             </li>
-            
+
+
+
+{/* จัดการสมาชิก */}
+<li className="nav-item menu-open">
+              <a href="#" className="nav-link active">
+                <i className="nav-icon fas fa-tachometer-alt" />
+                <p>
+                  จัดการสมาชิก
+                  <i className="right fas fa-angle-left" />
+                </p>
+              </a>
+              <ul className="nav nav-treeview">
+                <li className="nav-item">
+                  <Link href="listmember"><a className="nav-link">
+                    <i className="far fa-circle nav-icon" />
+                    <p>List Member</p>
+                  </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link href="addmember"><a href="./index2.html" className="nav-link">
+                    <i className="far fa-circle nav-icon" />
+                    <p>Add Member</p>
+                  </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link href="updatemember"><a href="./index3.html" className="nav-link">
+                    <i className="far fa-circle nav-icon" />
+                    <p>Update Member</p>
+                  </a>
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link href="deletemember"><a href="./index3.html" className="nav-link">
+                    <i className="far fa-circle nav-icon" />
+                    <p>Delete Member</p>
+                  </a>
+                  </Link>
+                </li>
+              </ul>
+            </li>
           </ul>
         </nav>
         {/* /.sidebar-menu */}
