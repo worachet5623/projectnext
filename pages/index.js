@@ -8,7 +8,7 @@ export default function Home() {
   return (
   <div>
     <Head>
-      <title>earn | Home</title>
+      <title>sirisup | Home</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />

@@ -8,7 +8,7 @@ export default function about() {
   return (
   <div>
         <Head>
-      <title>earn | updatemember</title>
+      <title>sirisup | updatemember</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
