@@ -8,7 +8,7 @@ export default function about() {
   return (
   <div>
         <Head>
-      <title>worachet | deletemember</title>
+      <title>saksit | deletemember</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />

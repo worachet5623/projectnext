@@ -11,7 +11,7 @@ const AdminSidebar = () => {
           className="brand-image img-circle elevation-3"
           style={{ opacity: ".8" }}
         />
-        <span className="brand-text font-weight-light">worachet | Site</span>
+        <span className="brand-text font-weight-light">saksit | Site</span>
       </a>
       {/* Sidebar */}
       <div className="sidebar">
@@ -96,7 +96,7 @@ const AdminSidebar = () => {
               <a href="#" className="nav-link active">
                 <i className="nav-icon fas fa-tachometer-alt" />
                 <p>
-                  Member
+                  สมาชิก
                   <i className="right fas fa-angle-left" />
                 </p>
               </a>
