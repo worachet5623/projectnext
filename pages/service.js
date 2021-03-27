@@ -8,7 +8,7 @@ export default function Service() {
   return (
   <div>
         <Head>
-      <title>ploy | service</title>
+      <title>nontuch | service</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />

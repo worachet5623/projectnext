@@ -8,7 +8,7 @@ export default function about() {
   return (
   <div>
         <Head>
-      <title>ploy | updatemember</title>
+      <title>nontuch | updatemember</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />

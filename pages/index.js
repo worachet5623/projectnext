@@ -8,7 +8,7 @@ export default function Home() {
   return (
   <div>
     <Head>
-      <title>ploy | Home</title>
+      <title>nontuch | Home</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
