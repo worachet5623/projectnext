@@ -8,7 +8,7 @@ export default function Home() {
   return (
   <div>
     <Head>
-      <title>saksit | Home</title>
+      <title>ploy | Home</title>
     </Head>
     <AdminHeader />
     <AdminSiderbar />
